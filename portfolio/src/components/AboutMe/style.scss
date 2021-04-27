@@ -1,0 +1,22 @@
+.about {
+  padding: 1rem 25%;
+  text-align: center;
+  background: #232859;
+  color: white;
+  
+  &-title {
+    text-transform: uppercase;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: white 1px 0 10px;
+  }
+
+  &-avatar {
+    border-radius: 50%;
+    margin: 2rem 0;
+    width: 50%;
+  }
+
+  &-content {
+    opacity: 0.6;
+  }
+}
