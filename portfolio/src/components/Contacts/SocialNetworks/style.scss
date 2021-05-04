@@ -1,0 +1,27 @@
+.networks {
+
+  &-content {
+    text-transform: uppercase;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: white 1px 0 10px;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+  }
+
+  &-linkedin {
+    width: 8%;
+    padding-right: 2rem;
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+  }
+
+  &-gmail {
+    width: 8%;
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+  }
+}

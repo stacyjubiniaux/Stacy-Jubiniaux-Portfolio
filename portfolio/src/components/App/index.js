@@ -5,6 +5,7 @@ import React from 'react';
 import Header from '../Header';
 import AboutMe from '../AboutMe';
 import Projects from '../Projects';
+import Contacts from '../Contacts';
 // == Import : style
 import './style.scss';
 
@@ -13,6 +14,7 @@ const App = () => (
     <Header />
     <AboutMe />
     <Projects />
+    <Contacts />
   </div>
 );
 

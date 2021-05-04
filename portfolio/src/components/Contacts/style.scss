@@ -1,0 +1,68 @@
+.contacts {
+  background: #100339;
+  padding: 2rem 5%;
+  color: white;
+
+  &-title {
+    text-transform: uppercase;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: white 1px 0 10px;
+    text-align: center;
+  }
+
+  &-content {
+    text-transform: uppercase;
+    font-family: 'Antonio', sans-serif;
+    text-shadow: white 1px 0 10px;
+    margin-bottom: 4rem;
+    font-size: 1.2rem;
+  }
+
+  &-contact {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  &-firstname,
+  &-lastname,
+  &-email,
+  &-subject,
+  &-message {
+    border: none;
+    background: #100339;
+    border-bottom: 3px solid #F6867A;
+    width: 20rem;
+    padding-bottom: 0.6rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    &::placeholder {
+      color: white;
+    }
+  }
+
+  &-message {
+    height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  &-button {
+    background: #100339;
+    border: 3px solid #F6867A;
+    padding: 0.5rem 1rem;
+    font-family: 'Antonio', sans-serif;
+    text-transform: uppercase;
+    color: #F6867A;
+    margin-top: 1rem; 
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
+      background: #F6867A;
+      border: 3px solid white;
+      color: white;
+    }
+  }
+}
