@@ -9,11 +9,6 @@ const Header = () => (
       <div>
         <img src={logo} alt='Logo' className='header-logo' />
       </div>
-      {/* <ul className='header-list'>
-        <li className='header-item'><a className='header-link' href='#'>About me</a></li>
-        <li className='header-item'><a className='header-link' href='#'>Projets</a></li>
-        <li className='header-item'><a className='header-link' href='#'>Contacts</a></li>
-      </ul> */}
       <section className='header-list'>
         <a>
           <span className="text">About me</span>
