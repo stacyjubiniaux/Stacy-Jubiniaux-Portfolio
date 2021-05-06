@@ -1,13 +1,14 @@
 .about {
-  padding: 1rem 25%;
+  padding: 0rem 25%;
   text-align: center;
-  background: #100339;
-  color: white;
+  color: #100339;
+  background: white;
   
   &-title {
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
-    text-shadow: white 1px 0 10px;
+    color: #F5857A;
+    text-shadow: #F5857A 1px 0 10px;
   }
 
   &-avatar {
@@ -17,6 +18,6 @@
   }
 
   &-content {
-    opacity: 0.6;
+    // opacity: 0.6;
   }
 }

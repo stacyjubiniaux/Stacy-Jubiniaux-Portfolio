@@ -8,6 +8,7 @@ import Projects from '../Projects';
 import Contacts from '../Contacts';
 // == Import : style
 import './style.scss';
+import Footer from '../Footer';
 
 const App = () => (
   <div className="app">
@@ -15,6 +16,7 @@ const App = () => (
     <AboutMe />
     <Projects />
     <Contacts />
+    <Footer />
   </div>
 );
 

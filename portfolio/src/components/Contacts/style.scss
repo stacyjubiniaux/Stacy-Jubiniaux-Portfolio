@@ -1,13 +1,17 @@
 .contacts {
-  background: #100339;
+  background: url('../../assets/images/background-contact.png');
+  height: 1080px;
   padding: 2rem 5%;
+  padding: 0;
   color: white;
+  border-top: 2px solid white;
 
   &-title {
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
     text-shadow: white 1px 0 10px;
     text-align: center;
+    padding-top: 6rem;
   }
 
   &-content {

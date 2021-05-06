@@ -1,11 +1,18 @@
 .projects {
-  background: #232859;
+  // background: #232859;
+  // padding: 2rem 5%;
+  
+  background-image: url('../../assets/images/background-projects.png');
+  background-repeat: no-repeat;
+  // height: 1080px;
   padding: 4rem 5%;
   color: white;
+  padding: 20rem 5% 6rem 5%;
 
   &-title {
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
+    color: white;
     text-shadow: white 1px 0 10px;
     text-align: center;
   }
@@ -33,7 +40,7 @@
   }
 
   &-button {
-    background: #232859;
+    background: #100339;
     border: 3px solid #F6867A;
     padding: 0.5rem 1rem;
     font-family: 'Antonio', sans-serif;

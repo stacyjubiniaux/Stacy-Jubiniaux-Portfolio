@@ -6,7 +6,7 @@ import mapquiz from '../../assets/images/mapquiz.PNG';
 import cadreho from '../../assets/images/cadreho.PNG';
 
 const Projects = () => (
-    <div className="projects">
+    <div className="projects" id="projets">
       <h1 className="projects-title">Projets</h1>
       <div className="projects-content">
         <div className="projects-item">

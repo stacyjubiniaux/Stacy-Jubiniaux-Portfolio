@@ -3,10 +3,10 @@ import React from 'react';
 // == Import : local
 import './style.scss';
 import Technologies from './Techologies';
-import avatar from '../../assets/images/avatar2.png';
+import avatar from '../../assets/images/avatar3.png';
 
 const AboutMe = () => (
-    <div className="about">
+    <div className="about" id="aboutme">
       <h1 className="about-title">About me</h1>
       <img src={avatar} alt='Avatar de Stacy' className="about-avatar"/>
       <p className="about-content">Hi ! Je me prénomme Stacy Jubiniaux et voici mon site web !</p>
