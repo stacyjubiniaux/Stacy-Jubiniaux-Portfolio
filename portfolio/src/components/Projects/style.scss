@@ -4,10 +4,13 @@
   
   background-image: url('../../assets/images/background-projects.png');
   background-repeat: no-repeat;
-  // height: 1080px;
-  padding: 4rem 5%;
+  // height: 100%;
+  // padding: 4rem 5%;
   color: white;
-  padding: 20rem 5% 6rem 5%;
+  padding: 17rem 5% 6rem 5%;
+  @media screen and (max-width: 870px) {
+    padding: 17rem 5% 0rem 5%;
+  }
 
   &-title {
     text-transform: uppercase;
@@ -15,28 +18,58 @@
     color: white;
     text-shadow: white 1px 0 10px;
     text-align: center;
+    padding: 1.2rem;
+    @media screen and (max-width: 870px) {
+      font-size: 1.7rem;
+    }
+    @media screen and (max-width: 650px) {
+      font-size: 1.5rem;
+    }
+    @media screen and (max-width: 570px) {
+      padding: 3rem 0 1rem 0;
+    }
   }
 
   &-content {
     display: flex;
     text-align: center;
     margin-top: 6rem;
+    @media screen and (max-width: 870px) {
+      display: block;
+      margin-top: 1rem;
+    }
   }
 
   &-img {
     width: 65%;
     box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+    @media screen and (max-width: 870px) {
+      width: 23rem;
+    }
+    @media screen and (max-width: 570px) {
+      width: 18rem;
+    }
   }
 
   &-project {
     text-transform: uppercase;
     font-family: 'Antonio', sans-serif;
     font-size: 1.5rem;
+    @media screen and (max-width: 870px) {
+      font-size: 1.2rem;
+    }
+    @media screen and (max-width: 570px) {
+      font-size: 1rem;
+    }
   }
 
   &-description {
     opacity: 0.8;
     margin-bottom: 3rem;
+    @media screen and (max-width: 870px) {
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
   }
 
   &-button {
@@ -54,6 +87,13 @@
       background: #F6867A;
       border: 3px solid white;
       color: white;
+    }
+    @media screen and (max-width: 870px) {
+      margin-bottom: 1.2rem;
+      font-size: 0.8rem;
+    }
+    @media screen and (max-width: 570px) {
+      font-size: 0.7rem;
     }
   }
 }

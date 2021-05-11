@@ -9,19 +9,37 @@
   }
 
   &-linkedin {
-    width: 8%;
+    width: 5rem;
     padding-right: 2rem;
     &:hover {
       transform: scale(1.2);
       transition: 0.5s;
     }
+    @media screen and (max-width: 850px) {
+      width: 4rem;
+    }
   }
 
-  &-gmail {
-    width: 8%;
+  &-github {
+    width: 5rem;
+    padding-right: 2rem;
     &:hover {
       transform: scale(1.2);
       transition: 0.5s;
+    }
+    @media screen and (max-width: 850px) {
+      width: 4rem;
+    }
+  }
+
+  &-gmail {
+    width: 5rem;
+    &:hover {
+      transform: scale(1.2);
+      transition: 0.5s;
+    }
+    @media screen and (max-width: 850px) {
+      width: 4rem;
     }
   }
 }

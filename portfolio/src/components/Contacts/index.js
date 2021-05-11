@@ -21,7 +21,11 @@ const Contacts = () => {
   return (
     <div className="contacts" id="contacts">
       <h1 className="contacts-title">Contacts</h1>
-        <div className="contacts-contact">
+      
+      <div className="contacts-contact">
+        
+
+        
           <form className="contacts-form" onSubmit={sendEmail}>
             <p className="contacts-content">Envoyer un message</p>
             <div>
@@ -43,8 +47,11 @@ const Contacts = () => {
               <input type="submit" className="contacts-button" value="Envoyer" />
             </div>
           </form>
-          <Networks />
-        </div>
+        
+
+        <Networks />
+      </div>
+        
     </div>
   )};
 
