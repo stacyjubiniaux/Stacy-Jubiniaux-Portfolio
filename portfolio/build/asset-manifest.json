@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e958b39d.chunk.css",
+    "main.js": "/static/js/main.9f310d4d.chunk.js",
+    "main.js.map": "/static/js/main.9f310d4d.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f3273e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f3273e7.js.map",
+    "static/js/2.ef1d6056.chunk.js": "/static/js/2.ef1d6056.chunk.js",
+    "static/js/2.ef1d6056.chunk.js.map": "/static/js/2.ef1d6056.chunk.js.map",
+    "static/js/3.3e0f6b19.chunk.js": "/static/js/3.3e0f6b19.chunk.js",
+    "static/js/3.3e0f6b19.chunk.js.map": "/static/js/3.3e0f6b19.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e958b39d.chunk.css.map": "/static/css/main.e958b39d.chunk.css.map",
+    "static/js/2.ef1d6056.chunk.js.LICENSE.txt": "/static/js/2.ef1d6056.chunk.js.LICENSE.txt",
+    "static/media/avatar3.740cbc80.png": "/static/media/avatar3.740cbc80.png",
+    "static/media/style.scss": "/static/media/background-projects.eb883a1c.png",
+    "static/media/background3.40a9121d.png": "/static/media/background3.40a9121d.png",
+    "static/media/bootstrap.53366f76.png": "/static/media/bootstrap.53366f76.png",
+    "static/media/cadreho.5c4bde65.PNG": "/static/media/cadreho.5c4bde65.PNG",
+    "static/media/css.fff0e90f.png": "/static/media/css.fff0e90f.png",
+    "static/media/git.d4e25555.png": "/static/media/git.d4e25555.png",
+    "static/media/github.487fe6bd.png": "/static/media/github.487fe6bd.png",
+    "static/media/gmail.216925e8.png": "/static/media/gmail.216925e8.png",
+    "static/media/html.13494661.png": "/static/media/html.13494661.png",
+    "static/media/javascript.7b474cff.png": "/static/media/javascript.7b474cff.png",
+    "static/media/logo.fc71c521.png": "/static/media/logo.fc71c521.png",
+    "static/media/mapquiz.63d3ff37.PNG": "/static/media/mapquiz.63d3ff37.PNG",
+    "static/media/mysql.0405cb1a.png": "/static/media/mysql.0405cb1a.png",
+    "static/media/php.f6600c83.png": "/static/media/php.f6600c83.png",
+    "static/media/react.8d2d9ecb.png": "/static/media/react.8d2d9ecb.png",
+    "static/media/sass.a3dbcc18.png": "/static/media/sass.a3dbcc18.png",
+    "static/media/wordpress.619cd2df.png": "/static/media/wordpress.619cd2df.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f3273e7.js",
+    "static/js/2.ef1d6056.chunk.js",
+    "static/css/main.e958b39d.chunk.css",
+    "static/js/main.9f310d4d.chunk.js"
+  ]
+}
